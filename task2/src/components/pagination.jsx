@@ -12,7 +12,7 @@ function Pagination({ currentPage, totalPages = 10, onPageChange }) {
 
 
   return (
-    <div className=''>
+    <div className='mt-10'>
       <button
         onClick={() => onPageChange(currentPage - 1)} 
         disabled={currentPage === 1}
